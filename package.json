@@ -18,7 +18,7 @@
     "test": "node scripts/gen_test.js",
     "deploy": "npm run build && now dist --local-config now.json --prod",
     "postversion": "git push && git push --tags",
-    "heroku-postbuild" : "parcel build index.html"
+    "heroku-postbuild" : "parcel index.html --port 3000"
   },
   "keywords": [
     "gltf",
