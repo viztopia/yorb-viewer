@@ -1,0 +1,1 @@
+web: parcel watch index.html
